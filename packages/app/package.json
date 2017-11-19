@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "app",
+  "version": "1.0.0",
+  "main": "main.js",
+	"dependencies": {
+		"scss-lib": "^1.0.0",
+    "js-lib": "^1.0.0"
+	}
+}
