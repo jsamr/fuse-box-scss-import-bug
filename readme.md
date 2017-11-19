@@ -1,8 +1,8 @@
 # Fusebox SCSS imports are not recursivly resolved
 
-As per the definition of the [recursive node module resolution algorithm](https://nodejs.org/api/modules.html#modules_loading_from_node_modules_folders), modules should be resolved recursivly. It means that any build tool should search for `node_modules` from source directory upwards.
+As per the definition of the [recursive node module resolution algorithm](https://nodejs.org/api/modules.html#modules_loading_from_node_modules_folders), modules should be resolved recursively. It means that any build tool should search for `node_modules` from source directory upwards.
 
-This is working fine with javascript modules, but it fails with `SCSS` modules.
+This is working fine with `javascript` modules, but it fails with `scss` modules.
 
 ## Steps to reproduce
 
