@@ -4,7 +4,7 @@ const fuse = FuseBox.init({
     output: "dist/$name.js",
     plugins: [
         WebIndexPlugin({ template: "assets/index.html" }),
-        [SassPlugin(), CSSPlugin()],
+        [SassPlugin({importer : true}), CSSPlugin()],
     ]
 });
 
